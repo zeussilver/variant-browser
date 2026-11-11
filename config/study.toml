@@ -1,0 +1,19 @@
+# Study-specific settings. Edit this file, not the Python code, when the data
+# source changes.
+
+# Label for the shared time axis. The public cohort counts days from each
+# patient's primary diagnosis.
+time_axis_label = "Days since primary diagnosis"
+
+# How to read a patient ID out of a sample ID. Rules are tried in order; the
+# first pattern that matches wins. `template` is filled from the named groups.
+# These rules are only used to CHECK the sample table and to PROPOSE a patient
+# for samples that are missing from it. They never override the sample table.
+[[sample_to_patient]]
+pattern = 'PCProject_(?P<num>\d{4})'
+template = 'MPCPROJECT_{num}'
+
+# Used by the synthetic demo study (data/synthetic_serial).
+[[sample_to_patient]]
+pattern = '^(?P<prefix>SYN)[-_ ]?(?P<num>\d{3})'
+template = 'SYN-{num}'

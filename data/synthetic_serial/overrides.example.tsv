@@ -1,0 +1,4 @@
+sample_id	same_as	patient_id	note
+syn003-cfdna-c3	SYN-003_cfDNA_C3		Same tube, ID retyped by the sequencing provider
+SYN-004_cfDNA_C2		SYN-004	Sample table row was pasted under the wrong patient
+SYN-001_cfDNA_C5		SYN-001	Missing from the sample table; confirmed against the lab book

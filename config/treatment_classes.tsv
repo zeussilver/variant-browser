@@ -1,0 +1,51 @@
+agent	class
+LEUPROLIDE	Hormonal
+GOSERELIN	Hormonal
+TRIPTORELIN	Hormonal
+DEGARELIX	Hormonal
+ADT, NOS	Hormonal
+ADT - NOS	Hormonal
+BICALUTAMIDE	Hormonal
+FLUTAMIDE	Hormonal
+NILUTAMIDE	Hormonal
+ESTRADIOL	Hormonal
+ESTROGEN	Hormonal
+ETHINYL ESTRADIOL	Hormonal
+DIETHYLSTILBESTROL	Hormonal
+KETOCONAZOLE	Hormonal
+MEGESTROL	Hormonal
+MEDROXYPROGESTERONE	Hormonal
+ABIRATERONE	AR pathway inhibitor
+ENZALUTAMIDE	AR pathway inhibitor
+APALUTAMIDE	AR pathway inhibitor
+DAROLUTAMIDE	AR pathway inhibitor
+DOCETAXEL	Chemotherapy
+CABAZITAXEL	Chemotherapy
+CARBOPLATIN	Chemotherapy
+CISPLATIN	Chemotherapy
+ETOPOSIDE	Chemotherapy
+MITOXANTRONE	Chemotherapy
+CYCLOPHOSPHAMIDE	Chemotherapy
+VINCRISTINE	Chemotherapy
+DOXORUBICIN	Chemotherapy
+IFOSFAMIDE	Chemotherapy
+PACLITAXEL	Chemotherapy
+ESTRAMUSTINE	Chemotherapy
+CHEMOTHERAPY NOS	Chemotherapy
+RADIUM-223	Radiation / radioligand
+LUTETIUM-177	Radiation / radioligand
+RADIATION THERAPY	Radiation / radioligand
+SIPULEUCEL-T	Targeted / immune
+PEMBROLIZUMAB	Targeted / immune
+NIVOLUMAB	Targeted / immune
+OLAPARIB	Targeted / immune
+RUCAPARIB	Targeted / immune
+CETUXIMAB	Targeted / immune
+RITUXIMAB	Targeted / immune
+IBRUTINIB	Targeted / immune
+EVEROLIMUS	Targeted / immune
+BORTEZOMIB	Targeted / immune
+CARFILZOMIB	Targeted / immune
+LENALIDOMIDE	Targeted / immune
+THALIDOMIDE	Targeted / immune
+CLINICAL TRIAL	Clinical trial

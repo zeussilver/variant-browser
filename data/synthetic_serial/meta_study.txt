@@ -1,0 +1,2 @@
+type_of_cancer: prostate
+name: Synthetic serial ctDNA demo (not real patients)

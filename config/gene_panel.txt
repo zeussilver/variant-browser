@@ -1,0 +1,32 @@
+# Genes shown by default in the cohort heatmap and labelled on the timeline.
+# One gene symbol per line. A starting list of genes commonly reported in
+# advanced prostate cancer; the lab should replace it with its own panel.
+AR
+TP53
+PTEN
+RB1
+SPOP
+FOXA1
+BRCA2
+BRCA1
+ATM
+CDK12
+PALB2
+CHEK2
+MSH2
+MSH6
+MLH1
+PIK3CA
+PIK3R1
+AKT1
+APC
+CTNNB1
+KMT2C
+KMT2D
+KDM6A
+ZFHX3
+NCOR1
+MED12
+CHD1
+ERF
+IDH1

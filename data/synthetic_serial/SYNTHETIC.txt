@@ -1,0 +1,12 @@
+This study is synthetic. Every patient, date and measurement was invented by
+scripts/make_synthetic_demo.py (seed 20261111). Do not use it for any analysis.
+
+Deliberate problems for the data checks page to find:
+1. NEAR_DUPLICATE_ID   'syn003-cfdna-c3' in the mutation file is 'SYN-003_cfDNA_C3' in the sample table.
+2. PATIENT_CONFLICT    'SYN-004_cfDNA_C2' is listed under SYN-005 in the sample table.
+3. NORMAL_MISMATCH     'SYN-006_cfDNA_C4' was called against the normal 'SYN-002_WBC'.
+4. SAMPLE_NOT_IN_TABLE 'SYN-001_cfDNA_C5' has variant calls but no row in the sample table.
+5. AGENT_SPELLING      'Leuprolide' and 'LEUPROLIDE'.
+6. STOP_BEFORE_START   SYN-005 radium-223 stops before it starts.
+
+overrides.example.tsv records a person's decision on problems 1, 2 and 4.
